@@ -1,3 +1,5 @@
+require(`katex/dist/katex.min.css`)
+
 export const onServiceWorkerUpdateReady = () => {
   const answer = window.confirm(
     `This tutorial has been updated. ` +

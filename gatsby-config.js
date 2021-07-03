@@ -23,7 +23,7 @@ const plugins = [
     resolve: 'gatsby-plugin-mdx',
     options: {
       gatsbyRemarkPlugins: [
-        {
+      {
           resolve: "gatsby-remark-images",
           options: {
             maxWidth: 1035,
@@ -34,7 +34,11 @@ const plugins = [
           resolve: 'gatsby-remark-copy-linked-files'
         }
       ],
-      extensions: [".mdx", ".md"]
+      extensions: [".mdx", ".md"],
+      remarkPlugins: [
+        require('remark-math'),
+      ],
+      rehypePlugins: [require(`rehype-katex`)],
     }
   },
   {

@@ -1,7 +1,7 @@
 ---
-title: "Introduction"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+title: "このサイトについて"
+metaTitle: "このサイトについて"
+metaDescription: "このサイトでは統計検定の対策を行います。"
 ---
 
 Some introduction text. Lists out all the headings from h1 to h6. Easy to customise.
